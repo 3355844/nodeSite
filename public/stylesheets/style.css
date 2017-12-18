@@ -3,12 +3,39 @@ body {
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+h1 {
+    text-align: center;
+}
+
 h2 {
     margin: 0 0 .5em 0;
 }
 
 a {
     color: #00B7FF;
+}
+
+p {
+    text-align: center;
+}
+
+#addUser input {
+    margin: 2px;
+}
+
+#btnAddUser{
+    margin-top: 4px;
+    background-color: #00B7FF;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+#logo{
+    text-align: center;
+}
+
+#logoImg{
+    height: 100px;
 }
 
 #wrapper {
@@ -54,9 +81,15 @@ a {
 }
 
 #userInfo p {
+    text-align: left;
     padding: 15px;
     border: 1px solid #CCC;
     background: rgba(80, 120, 255, 0.05);
+}
+
+#footer{
+    text-align: center;
+    color: cornflowerblue;
 }
 
 fieldset {

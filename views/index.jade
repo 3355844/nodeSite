@@ -1,9 +1,8 @@
 extends layout
-
 block content
     h1= title
-    p Andrey Ponomarenko welcomes you...)
-
+    #logo
+        img( id='logoImg' src='./images/logo.jpg')
     //Wrapper
     #wrapper
         // USER INFO
@@ -34,17 +33,21 @@ block content
         // /USER LIST
         // ADD USER
         h2 Add User
-            #addUser
-                fieldset
-                    input#inputUserName(type='text', placeholder='Username')
-                    input#inputUserEmail(type='text', placeholder='Email')
-                    br
-                    input#inputUserFullname(type='text', placeholder='Full Name')
-                    input#inputUserAge(type='text', placeholder='Age')
-                    br
-                    input#inputUserLocation(type='text', placeholder='Location')
-                    input#inputUserGender(type='text', placeholder='gender')
-                    br
-                    button#btnAddUser Add User
-            // /ADD USER
+        #addUser
+            fieldset
+                input#inputUserName(type='text', placeholder='Username')
+                input#inputUserEmail(type='text', placeholder='Email')
+                br
+                input#inputUserFullname(type='text', placeholder='Full Name')
+                input#inputUserAge(type='text', placeholder='Age')
+                br
+                input#inputUserLocation(type='text', placeholder='Location')
+                input#inputUserGender(type='text', placeholder='gender')
+                br
+                button#btnAddUser Add User
+        // /ADD USER
     // /WmRAPPER
+    // /Footer
+    #footer
+        #footer_info
+            a(href='https://www.facebook.com/andrei.ponomarenko.18') Created by Ponomarenko A.M.
